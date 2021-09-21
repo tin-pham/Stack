@@ -37,6 +37,7 @@ export default class Stack extends LinkedList {
 	}
 }
 
+// Remove some unuse method of LinkedList
 Object.defineProperties(Stack.prototype, {
 	append: {},
 	add: {},
