@@ -37,20 +37,14 @@ export default class Stack extends LinkedList {
 	}
 }
 
-// Clear some method of LinkedList
 Object.defineProperties(Stack.prototype, {
-	prepend: {},
 	append: {},
 	add: {},
-	removeFirst: {},
 	removeLast: {},
 	removeAt: {},
 	remove: {},
-	toString: {},
 });
 
 const stack = new Stack(1);
 stack.push(2);
 stack.push(3);
-
-stack.display();
